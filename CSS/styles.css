@@ -1,0 +1,161 @@
+body {
+  /**font-family: "Helvetica Neue",Helvetica,Arial,sans-serif; **/
+  /** Font family is picked in order and it will default all the way to sans-serif if the browser can't render the previous specified fonts**/
+  font-family: 'Merriweather', serif;
+  margin: 0;
+  text-align: center;
+  color: #40514E;
+}
+
+#profile-picture {
+  border-radius: 100px;
+}
+
+h1 {
+  color: #AC7088;
+  /**line-height: 2 -- space between h1 and h2**/
+  margin: 50px auto 0;
+  /** top, left and right, bottom margins **/
+  font-family: 'Sacramento', cursive;
+  font-size: 5.625rem; /** rem is the preferred way to size a font as it only affects the specified element, no matter what its parent is. **/
+}
+
+h2 {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 2.5rem;
+  color: #AC7088;
+  font-weight: normal;
+  padding-bottom: 10px;
+}
+
+h3 {
+  font-family: 'Montserrat', sans-serif;
+  color: #DEB6AB;
+}
+
+/*
+hr {
+  border-style: none none;
+  border-top: dotted;
+  border-color: #F5E8C7;
+  border-width: 5px;
+  width: 5%;
+  margin: 75px auto 75px auto;
+} */
+
+hr {
+  border: dotted #F5E8C7 6px;
+  border-bottom: none;
+  width: 4%;
+  margin: 100px auto;
+}
+
+p {
+  line-height: 2;
+}
+
+.top-container {
+  background-color: #F5E8C7;
+  position: relative;
+  padding-top: 100px;
+}
+
+.middle-container{
+  padding-top: 100px;
+}
+
+.bio {
+  width: 30%;
+  margin: auto;
+}
+
+.contact-message {
+  width: 30%;
+  margin: 40px auto 60px;
+}
+
+.bottom-container {
+  background-color: #DEB6AB;
+  margin: 100px auto auto auto;
+  padding: 40px 0 20px;
+}
+
+.footer-link {
+  margin: 0 20px 0 20px;
+}
+
+.skill-row {
+  width: 50%;
+  margin: 100px auto;
+  /** vertical/horizontal margin
+  can also use 100px, auto, 100px, auto**/
+  text-align: left;
+  /** this overrides the overall text align in body */
+}
+
+.computer-chip {
+  width: 25%;
+  float: left;
+  margin-right: 30px;
+}
+
+.web-development {
+  width: 25%;
+  /* scaled to size based on the width of its parent (skill-row)*/
+  float: right;
+  margin-left: 30px;
+}
+
+/* these functions make the text to stop wrapping around the image
+.computer-description{
+  clear: left;
+}
+
+.development-description {
+  clear: right;
+} */
+
+.bottom-cloud {
+  position: absolute;
+  left: 250px;
+}
+
+.top-cloud {
+  position: absolute;
+  right: 300px;
+  top: 40px;
+}
+
+.copyright {
+  color: #F5E8C7;
+  font-size: 0.75em;
+  padding: 20px 0;
+}
+
+.btn {
+  background: #d19292;
+  background-image: -webkit-linear-gradient(top, #d19292, #DEB6AB);
+  background-image: -moz-linear-gradient(top, #d19292, #DEB6AB);
+  background-image: -ms-linear-gradient(top, #d19292, #DEB6AB);
+  background-image: -o-linear-gradient(top, #d19292, #DEB6AB);
+  background-image: linear-gradient(to bottom, #d19292, #DEB6AB);
+  -webkit-border-radius: 8;
+  -moz-border-radius: 8;
+  border-radius: 8px;
+  font-family: 'Montserrat', san-serif;
+  color: #ffffff;
+  font-size: 20px;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+  margin: auto;
+}
+
+.btn:hover {
+  background: #ECCCB2;
+  background-image: -webkit-linear-gradient(top, #ECCCB2, #DEB6AB);
+  background-image: -moz-linear-gradient(top, #ECCCB2, #DEB6AB);
+  background-image: -ms-linear-gradient(top, #ECCCB2, #DEB6AB);
+  background-image: -o-linear-gradient(top, #ECCCB2, #DEB6AB);
+  background-image: linear-gradient(to bottom, #ECCCB2, #DEB6AB);
+  text-decoration: none;
+}
